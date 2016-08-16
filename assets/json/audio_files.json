@@ -1,0 +1,70 @@
+{"audio_files": [
+
+{    
+    "type": "audio",
+    "key": "welcome",
+    "urls": ["assets/audio/welcome.mp3"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "apron",
+    "urls": ["assets/audio/apron.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "cake",
+    "urls": ["assets/audio/cake.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "car",
+    "urls": ["assets/audio/car.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "carp",
+    "urls": ["assets/audio/carp.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "cat",
+    "urls": ["assets/audio/cat.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "cat_noun",
+    "urls": ["assets/audio/cat_noun.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "explore_together",
+    "urls": ["assets/audio/explore_together.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "hello_daniel2",
+    "urls": ["assets/audio/hello_daniel2.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "buzz",
+    "urls": ["assets/audio/bzzzt.wav"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "ding",
+    "urls": ["assets/audio/sd_0.wav"],
+    "autoDecode":true
+}
+
+]}
