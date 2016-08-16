@@ -50,6 +50,12 @@
 },
 {    
     "type": "audio",
+    "key": "teach",
+    "urls": ["assets/audio/teach.m4a"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
     "key": "hello_daniel2",
     "urls": ["assets/audio/hello_daniel2.m4a"],
     "autoDecode":true
