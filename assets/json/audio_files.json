@@ -71,6 +71,30 @@
     "key": "ding",
     "urls": ["assets/audio/sd_0.wav"],
     "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "bernard_vo",
+    "urls": ["assets/audio/ENGLISH_Bernard.mp3"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "eugene_vo",
+    "urls": ["assets/audio/ENGLISH_Eugene.mp3"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "samantha_vo",
+    "urls": ["assets/audio/ENGLISH_Samantha.mp3"],
+    "autoDecode":true
+},
+{    
+    "type": "audio",
+    "key": "sandy_vo",
+    "urls": ["assets/audio/ENGLISH_Sandy.mp3"],
+    "autoDecode":true
 }
 
 ],
@@ -79,6 +103,39 @@
     "type": "image",
     "key": "dan_base",
     "url": "assets/images/dan/dan_base.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_ah",
+    "url": "assets/images/dan/dan_ah.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_llu",
+    "url": "assets/images/dan/dan_llu.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_mm",
+    "url": "assets/images/dan/dan_mm.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_oh",
+    "url": "assets/images/dan/dan_oh.png",
+    "overwrite":false
+}
+
+],
+"daniel_character":[
+{    
+    "type": "image",
+    "key": "daniel_base",
+    "url": "assets/images/dan/daniel_base.png",
     "overwrite":false
 },
 {    

@@ -5,13 +5,13 @@ var levels= [
 "state":"level_one_1"},
 {"label":"Consonents",
 "state":"level_one_2"},
-{"label":"Topic 3",
+{"label":"VoiceOver:Eugene",
 "state":"level_one_3"},
-{"label":"Vowels",
+{"label":"VoiceOver: Bernard",
 "state":"level_one_4"},
-{"label":"Vowels",
+{"label":"VoiceOver:Samantha",
 "state":"level_one_5"},
-{"label":"Vowels",
+{"label":"VoiceOver:Sandy",
 "state":"level_one_6"}];
 var Menu = {
 	create: function () {

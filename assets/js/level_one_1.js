@@ -78,21 +78,77 @@ function goBack () {
 }
 
 var LevelOne_2 = {
+	create: function (){
+		var daniel= game.add.group();
+	var daniel_base=game.add.sprite(0,0,"daniel_base");
+	var daniel_mouth=game.add.sprite(100,160,"mouth",2);
+	daniel_mouth.scale.setTo(1.5);
+	daniel.add(daniel_base);
+	daniel.add(daniel_mouth);
+	daniel.x=game.world.centerX;
+	daniel.y=game.world.centerY-200;
+
+	game.sound.play("eugene_vo");
+	}
 	
 }
 
 var LevelOne_3 = {
-	
+	create: function (){
+		var daniel= game.add.group();
+	var daniel_base=game.add.sprite(0,0,"daniel_base");
+	var daniel_mouth=game.add.sprite(100,160,"mouth",2);
+	daniel_mouth.scale.setTo(1.5);
+	daniel.add(daniel_base);
+	daniel.add(daniel_mouth);
+	daniel.x=game.world.centerX;
+	daniel.y=game.world.centerY-200;
+
+	game.sound.play("eugene_vo");
+	}
 }
 
 var LevelOne_4 = {
-	
+	create: function (){
+		var daniel= game.add.group();
+	var daniel_base=game.add.sprite(0,0,"daniel_base");
+	var daniel_mouth=game.add.sprite(100,160,"mouth",2);
+	daniel_mouth.scale.setTo(1.5);
+	daniel.add(daniel_base);
+	daniel.add(daniel_mouth);
+	daniel.x=game.world.centerX;
+	daniel.y=game.world.centerY-200;
+
+	game.sound.play("bernard_vo");
+	}
 }
 
 var LevelOne_5 = {
-	
+	create: function (){
+		var daniel= game.add.group();
+	var daniel_base=game.add.sprite(0,0,"daniel_base");
+	var daniel_mouth=game.add.sprite(100,160,"mouth",2);
+	daniel_mouth.scale.setTo(1.5);
+	daniel.add(daniel_base);
+	daniel.add(daniel_mouth);
+	daniel.x=game.world.centerX;
+	daniel.y=game.world.centerY-200;
+
+	game.sound.play("samantha_vo");
+	}
 }
 
 var LevelOne_6 = {
-	
+	create: function (){
+		var daniel= game.add.group();
+	var daniel_base=game.add.sprite(0,0,"daniel_base");
+	var daniel_mouth=game.add.sprite(100,160,"mouth",2);
+	daniel_mouth.scale.setTo(1.5);
+	daniel.add(daniel_base);
+	daniel.add(daniel_mouth);
+	daniel.x=game.world.centerX;
+	daniel.y=game.world.centerY-200;
+
+	game.sound.play("sandy_vo");
+	}
 }
