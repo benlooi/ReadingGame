@@ -34,7 +34,7 @@ var Menu = {
 		}
 		//var text=game.add.text(300,150,"Let's learn A",{font:"20px Helvetica",fill:"#ffffff"})
 		var hello=game.add.audio("welcome");
-		hello.play().onStop.add(saySomething,this);
+		hello.play();
 		
 	}
 }

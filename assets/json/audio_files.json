@@ -73,4 +73,37 @@
     "autoDecode":true
 }
 
+],
+"dan_character":[
+{    
+    "type": "image",
+    "key": "dan_base",
+    "url": "assets/images/dan/dan_base.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_ah",
+    "url": "assets/images/dan/dan_ah.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_llu",
+    "url": "assets/images/dan/dan_llu.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_mm",
+    "url": "assets/images/dan/dan_mm.png",
+    "overwrite":false
+},
+{    
+    "type": "image",
+    "key": "dan_oh",
+    "url": "assets/images/dan/dan_oh.png",
+    "overwrite":false
+}
+
 ]}

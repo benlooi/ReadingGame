@@ -1,4 +1,5 @@
 var A,A_teach,A_carp;
+var dan_mouth;
 var LevelOne_1 = {
 
 	create: function () {
@@ -19,7 +20,25 @@ var LevelOne_1 = {
 		
 		carp.inputEnabled=true;
 		carp.events.onInputDown.add(highlight_A_carp,this);
+
+		var back=game.add.text(50,50,"back",{font:"30px 'Arial Black'",fill:"#9B2432"})
 		
+		back.inputEnabled=true;
+		back.events.onInputDown.add(goBack,this);
+		
+		Dan= game.add.group();
+		var dan_base=game.add.sprite(0,0,"dan_base");
+
+		dan_mouth=game.add.sprite(120,150,"mouth",2);
+		dan_mouth.animations.add("apron",[3,2,1,3,2],10,false);
+		dan_mouth.animations.add("teach",[3,3,3,2],30,false);
+		dan_mouth.animations.add("carp",[04,4,2],10,false);
+		dan_mouth.scale.setTo(2);
+		Dan.add(dan_base);
+		Dan.add(dan_mouth);
+		Dan.scale.setTo(0.6);
+		Dan.x=600;
+		Dan.y=300;
 	}
 	}
 
@@ -30,6 +49,8 @@ function highlight_A () {
 	game.sound.play("apron").onStop.add(function () {
 		A.setShadow(0,0,'rgba(255,255,255,0.5)',0);
 	},this);
+	//dan_mouth.loadTexture("dan_ah");
+dan_mouth.animations.play("apron");
 }
 
 function highlight_A_teach () {
@@ -38,6 +59,9 @@ function highlight_A_teach () {
 	game.sound.play("teach").onStop.add(function () {
 		A_teach.setShadow(0,0,'rgba(255,255,255,0.5)',0);
 	},this);
+	//dan_mouth.loadTexture("dan_oh");
+	dan_mouth.animations.play("teach");
+
 }
 function highlight_A_carp () {
 
@@ -45,6 +69,12 @@ function highlight_A_carp () {
 	game.sound.play("carp").onStop.add(function () {
 		A_carp.setShadow(0,0,'rgba(255,255,255,0.5)',0);
 	},this);
+	//dan_mouth.loadTexture("dan_llu");
+	dan_mouth.animations.play("carp");
+}
+
+function goBack () {
+	game.state.start("menu");
 }
 
 var LevelOne_2 = {
